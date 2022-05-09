@@ -13,6 +13,8 @@
 		7B6A94B92829D6E300E239C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A94B82829D6E300E239C5 /* Preview Assets.xcassets */; };
 		7B7D1D382829D7F400A8A445 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D1D372829D7F400A8A445 /* SlideOverCard.swift */; };
 		7B7D1D3A2829DB1B00A8A445 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D1D392829DB1B00A8A445 /* MapView.swift */; };
+		7B7D1D3C2829DBE900A8A445 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D1D3B2829DBE900A8A445 /* Handle.swift */; };
+		7B7D1D3E2829DD5900A8A445 /* OverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D1D3D2829DD5900A8A445 /* OverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		7B6A94B82829D6E300E239C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B7D1D372829D7F400A8A445 /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
 		7B7D1D392829DB1B00A8A445 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7B7D1D3B2829DBE900A8A445 /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		7B7D1D3D2829DD5900A8A445 /* OverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +61,12 @@
 			children = (
 				7B6A94B12829D6E200E239C5 /* SlideOverCardApp.swift */,
 				7B6A94B32829D6E200E239C5 /* ContentView.swift */,
+				7B7D1D3D2829DD5900A8A445 /* OverView.swift */,
+				7B7D1D392829DB1B00A8A445 /* MapView.swift */,
+				7B7D1D372829D7F400A8A445 /* SlideOverCard.swift */,
+				7B7D1D3B2829DBE900A8A445 /* Handle.swift */,
 				7B6A94B52829D6E300E239C5 /* Assets.xcassets */,
 				7B6A94B72829D6E300E239C5 /* Preview Content */,
-				7B7D1D372829D7F400A8A445 /* SlideOverCard.swift */,
-				7B7D1D392829DB1B00A8A445 /* MapView.swift */,
 			);
 			path = SlideOverCard;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			files = (
 				7B6A94B42829D6E200E239C5 /* ContentView.swift in Sources */,
 				7B7D1D3A2829DB1B00A8A445 /* MapView.swift in Sources */,
+				7B7D1D3C2829DBE900A8A445 /* Handle.swift in Sources */,
 				7B6A94B22829D6E200E239C5 /* SlideOverCardApp.swift in Sources */,
+				7B7D1D3E2829DD5900A8A445 /* OverView.swift in Sources */,
 				7B7D1D382829D7F400A8A445 /* SlideOverCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
